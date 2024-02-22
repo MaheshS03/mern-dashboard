@@ -1,0 +1,183 @@
+*
+{
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    margin: 0px;
+    background-color: #23232b;
+    display: flex;
+}
+.protest-strike-regular
+{
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.dashboard
+{
+    color: white;
+    font-size: 25px;
+    background-color: #2c2f34;
+    height: 100vh;
+}
+ul
+{
+    list-style-type: none;
+}
+li{
+    margin: 20px;
+}
+
+.project1
+{
+    display: flex;
+    background-color: #2c2f34;
+    flex-direction: column;
+    margin: 50px;
+    padding: 10px;
+    justify-self: flex-start;
+    width: 15vw;
+    height:20vh;
+    position: absolute;
+    border-radius: 10px;
+    align-items: flex-start;
+}
+.project2
+{
+    display: flex;
+    background-color: #2c2f34;
+    flex-direction: column;
+    margin: 50px;
+    padding: 10px;
+    justify-self: flex-start;
+    width: 15vw;
+    height:20vh;
+    position: relative;
+    border-radius: 10px;
+    left: 250px;
+    right: 250px;
+}
+.project3
+{
+    display: flex;
+    background-color: #2c2f34;
+    flex-direction: column;
+    margin: 50px;
+    padding: 10px;
+    justify-self: flex-start;
+    width: 15vw;
+    height:20vh;
+    position: relative;
+    border-radius: 10px;
+    top: 250px;
+    right: 520px;
+}
+.project4
+{
+    display: flex;
+    background-color: #2c2f34;
+    flex-direction: column;
+    margin: 50px;
+    padding: 10px;
+    justify-self: flex-start;
+    width: 15vw;
+    height:20vh;
+    position: relative;
+    border-radius: 10px;
+    left: 360px;
+    bottom: 50px;
+}
+.project5
+{
+    display: flex;
+    background-color: #2c2f34;
+    flex-direction: column;
+    margin: 50px;
+    padding: 10px;
+    justify-self: flex-start;
+    width: 15vw;
+    height:20vh;
+    position: relative;
+    border-radius: 10px;
+    top: 200px;
+    right: 400px;
+}
+.project6
+{
+    display: flex;
+    background-color: #2c2f34;
+    flex-direction: column;
+    margin: 50px;
+    padding: 10px;
+    justify-self: flex-start;
+    width: 15vw;
+    height:20vh;
+    position: relative;
+    border-radius: 10px;
+    left: 360px;
+    bottom: 100px;
+}
+.project-details
+{
+    display: flex;
+    flex-wrap:wrap;
+    position: relative;
+}
+.search-box
+{
+    display: flex;
+    height:3vh;
+    width: 50vw;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.buttons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#new-button,#upload-button,#share-button
+{
+    font-size: 1.25rem;
+    border-radius: 25px;
+    color: white;
+    background-color: #2c2f34;
+    padding: 10px;
+    margin: 10px;
+}
+.main-section
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 10px;
+}
+.announcements
+{
+    background-color: #2c2f34;
+    position: relative;
+    padding: 20px;
+    top: 290px;
+    right: 450px;
+    border-radius: 10px;
+    height: 40vh;
+}
+.people
+{
+    background-color: #2c2f34;
+    position: relative;
+    top:380px;
+    right:450px;
+    border-radius: 10px;
+    width: 10vw;
+    height:15vh;
+    justify-content: space-evenly;
+}
+.other-section
+{
+    display: flex;
+    flex-direction: column;   
+}
