@@ -17,9 +17,16 @@ body{
 .dashboard
 {
     color: white;
-    font-size: 25px;
+    font-size: 2rem;
     background-color: #2c2f34;
-    height: 100vh;
+    height: 130vh;
+    display:flex;
+    flex-direction: column;
+    width: 15vw;
+    border-right-width:5px;
+    border-style: solid; 
+    border-color: #2c2f34;
+    border-right-color: rgb(198, 187, 198);
 }
 ul
 {
@@ -37,11 +44,17 @@ li{
     margin: 50px;
     padding: 10px;
     justify-self: flex-start;
-    width: 15vw;
-    height:20vh;
+    width: 20vw;
+    height:25vh;
     position: absolute;
-    border-radius: 10px;
+    border-radius: 15px;
     align-items: flex-start;
+    top:5vh;
+    font-size: 1.2rem;
+    border-left-width:10px;
+    border-style: solid; 
+    border-color: #2c2f34;
+    border-left-color: rgb(91, 9, 91);
 }
 .project2
 {
@@ -51,12 +64,17 @@ li{
     margin: 50px;
     padding: 10px;
     justify-self: flex-start;
-    width: 15vw;
-    height:20vh;
-    position: relative;
-    border-radius: 10px;
-    left: 250px;
-    right: 250px;
+    width: 20vw;
+    height:25vh;
+    position: absolute;
+    border-radius: 15px;
+    top: 5vh;
+    left: 350%;
+    font-size: 1.2rem;
+    border-left-width:10px;
+    border-style: solid; 
+    border-color: #2c2f34;
+    border-left-color: rgb(91, 9, 91);
 }
 .project3
 {
@@ -66,12 +84,16 @@ li{
     margin: 50px;
     padding: 10px;
     justify-self: flex-start;
-    width: 15vw;
-    height:20vh;
-    position: relative;
-    border-radius: 10px;
-    top: 250px;
-    right: 520px;
+    width: 20vw;
+    height:25vh;
+    position: absolute;
+    border-radius: 15px;
+    top: 40vh;
+    font-size: 1.2rem;
+    border-left-width:10px;
+    border-style: solid; 
+    border-color: #2c2f34;
+    border-left-color: rgb(91, 9, 91);
 }
 .project4
 {
@@ -81,12 +103,17 @@ li{
     margin: 50px;
     padding: 10px;
     justify-self: flex-start;
-    width: 15vw;
-    height:20vh;
-    position: relative;
-    border-radius: 10px;
-    left: 360px;
-    bottom: 50px;
+    width: 20vw;
+    height:25vh;
+    position: absolute;
+    border-radius: 15px;
+    top:40vh;
+    left:350%;
+    font-size: 1.2rem;
+    border-left-width:10px;
+    border-style: solid; 
+    border-color: #2c2f34;
+    border-left-color: rgb(91, 9, 91);
 }
 .project5
 {
@@ -96,12 +123,16 @@ li{
     margin: 50px;
     padding: 10px;
     justify-self: flex-start;
-    width: 15vw;
-    height:20vh;
-    position: relative;
-    border-radius: 10px;
-    top: 200px;
-    right: 400px;
+    width: 20vw;
+    height:25vh;
+    position: absolute;
+    border-radius: 15px;
+    top: 75vh;
+    font-size: 1.2rem;
+    border-left-width:10px;
+    border-style: solid; 
+    border-color: #2c2f34;
+    border-left-color: rgb(91, 9, 91);
 }
 .project6
 {
@@ -111,24 +142,30 @@ li{
     margin: 50px;
     padding: 10px;
     justify-self: flex-start;
-    width: 15vw;
-    height:20vh;
-    position: relative;
-    border-radius: 10px;
-    left: 360px;
-    bottom: 100px;
+    width: 20vw;
+    height:25vh;
+    position: absolute;
+    border-radius: 15px;
+    top:75vh;
+    left:350%;
+    font-size: 1.2rem;
+    border-left-width:10px;
+    border-style: solid; 
+    border-color: #2c2f34;
+    border-left-color: rgb(91, 9, 91);
 }
 .project-details
 {
     display: flex;
     flex-wrap:wrap;
-    position: relative;
+    position: absolute;
+    top:25vh
 }
 .search-box
 {
     display: flex;
-    height:3vh;
-    width: 50vw;
+    height:5vh;
+    width: 60vw;
     border-radius: 25px;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -158,26 +195,74 @@ li{
 .announcements
 {
     background-color: #2c2f34;
-    position: relative;
+    position: absolute;
     padding: 20px;
-    top: 290px;
-    right: 450px;
     border-radius: 10px;
-    height: 40vh;
+    top:10vh;
 }
 .people
 {
     background-color: #2c2f34;
-    position: relative;
-    top:380px;
-    right:450px;
+    position: absolute;
     border-radius: 10px;
-    width: 10vw;
-    height:15vh;
-    justify-content: space-evenly;
+    width: 25vw;
+    height: 20vh;
+    font-size: 1.2rem;
+    
 }
 .other-section
 {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    position: absolute;
+    left: 68%;
+}
+.top-section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.site-maintenance,.community,.privacy-policy
+{
+    width: 25vw;
+    font-size: 1.2rem;
+}
+.primary-name
+{
+    font-size: 1.25rem;
+}
+.navigation
+{
+    font-size: 1.25rem;
+    height: 20vh;
+    width: 75vw;
+}
+.announcement{
+    position: absolute;
+    top:25vh;
+}
+.known-people
+{
+    position: absolute;
+    top:102vh;
+}
+#full-hr
+{
+    gap: none;
+    width: 84vw;
+}
+#image
+{
+    border-radius: 50px;
+    height: 4vh;
+    width: 2vw;
+}
+.search{
+    display: flex;
+    justify-content: space-evenly;
+}
+.material-symbols-outlined
+{
+    margin-top: 32px;
+    padding: 5px;
 }
