@@ -266,3 +266,13 @@ li{
     margin-top: 32px;
     padding: 5px;
 }
+.people-box
+{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+a:link,a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
